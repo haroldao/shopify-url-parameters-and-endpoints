@@ -2,7 +2,7 @@
 
 When working with Shopify URLs, you can use various query parameters and JSON endpoints to control the page behavior and interact with Shopify's storefront data. Below are some commonly used parameters and a list of useful JSON endpoints.
 
-## Common Shopify URL Parameters
+### Common Shopify URL Parameters
 
 * `?_fd=0`: Prevents domain forwarding, ensuring the URL remains unchanged when navigating between Shopify and your custom domain.
 * `?pb=0`: Hides the Shopify preview bar, providing a cleaner view of the page, useful for screenshots or sharing the page without the preview tools visible.
