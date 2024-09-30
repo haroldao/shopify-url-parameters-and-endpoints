@@ -1,5 +1,6 @@
-# Shopify URL parameters
+# Shopify URL parameters and endpoints
 
+## Common Shopify URL Parameters
 When using Shopify URLs, the following query parameters can modify how the page is displayed or behaves:
 
 * `?_fd=0`: Prevents domain forwarding, ensuring the URL remains unchanged when navigating between Shopify and your custom domain.
@@ -8,6 +9,8 @@ When using Shopify URLs, the following query parameters can modify how the page 
 * `?shop_by=<filter>`: Applies a filter for the collection page, allowing users to sort or display items based on certain parameters (e.g., ?shop_by=price-ascending).
 * `?customer_posted=<true|false>`: Used after submitting forms related to customer data (e.g., after submitting a contact form)
 * `?q=<search-query>`: Performs a search on the store based on the query entered (e.g., ?q=shoes).
+* `?ab=<?>`: Used for ?
+* `?sc=<?>`: Used for ?
 * `?variant=<variant-id>`: Automatically selects a specific variant on the product page when loading (e.g., ?variant=123456789).
 * `?checkout[shipping_address][country]=<country>`: Prefills checkout fields, in this case, the shipping country.
 * `?preview_theme_id=<theme-id>`: Allows you to preview a specific theme on your store without publishing it.
