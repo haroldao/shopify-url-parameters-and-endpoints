@@ -24,3 +24,7 @@ When working with Shopify URLs, you can use various query parameters and JSON en
 - `/collections/<collection-handle>/products.json`: Retrieves a list of products within a specific collection.
 - `/search/suggest.json?q=<query>&resources[type]=product`: Provides product search suggestions in JSON format based on the query.
 - `/pages/<page-handle>.json`: Retrieves details for a specific page in JSON format.
+
+<br>
+
+**If you have any suggestions or improvements for this repository, feel free to open a pull request on GitHub!**
