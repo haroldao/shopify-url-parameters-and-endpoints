@@ -1,6 +1,6 @@
 # Shopify URL parameters and endpoints
 
-When working with Shopify URLs, you can use various query parameters and JSON endpoints to control the page behavior and interact with Shopify's storefront data. Below are some commonly used parameters and a list of useful JSON endpoints.
+When working with Shopify URLs, you can use various query parameters and JSON endpoints to control the page behavior and interact with Shopify's storefront data. Below are some commonly used parameters and a list of useful (JSON) endpoints.
 
 ### Common Shopify URL Parameters
 
@@ -20,7 +20,7 @@ When working with Shopify URLs, you can use various query parameters and JSON en
 - `?filter=<filter-query>`: Applies filtering options to collections, such as price or tag filters.
 
 
-### Shopify JSON Endpoints:
+### Shopify (JSON) Endpoints:
 
 - `/cart/counts.json`: Retrieves the current number of items in the cart in JSON format.
 - `/cart.js`: Retrieves the full cart contents in JSON format, including items, quantities, and total price.
