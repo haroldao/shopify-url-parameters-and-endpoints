@@ -18,6 +18,7 @@ When working with Shopify URLs, you can use various query parameters and JSON en
 - `?page=<page-number>`: Used for pagination on collection pages, allowing users to navigate between multiple pages of products.
 - `?type=<collection-type>`: Collection type query to filter products by specific types.
 - `?filter=<filter-query>`: Applies filtering options to collections, such as price or tag filters.
+- `?limit=<number>`: Applies custom pagination limit. Useful for querying products on a store in bulk, or retrieving a small subset of products for a specific collection.
 
 
 ### Shopify (JSON) Endpoints:
@@ -29,6 +30,10 @@ When working with Shopify URLs, you can use various query parameters and JSON en
 - `/search/suggest.json?q=<query>&resources[type]=product`: Provides product search suggestions in JSON format based on the query.
 - `/pages/<page-handle>.json`: Retrieves details for a specific page in JSON format.
 - `/challenge`: Redirects to a challenge page, which Shopify uses for security purposes, like verifying the user is human when suspicious behavior is detected.
+- `/variants/<variant-id>`: Redirects to product page with variant preselected.
+- `/meta.json`: Retrieves store metadata.
+- `/browsing_context_suggestions.json`: Retrieves geolocation data.
+- `/products.json`: Retrieves all products on the store (paginated).
 
 <br>
 
