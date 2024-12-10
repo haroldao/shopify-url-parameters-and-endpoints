@@ -19,7 +19,7 @@ When working with Shopify URLs, you can use various query parameters and JSON en
 - `?type=<collection-type>`: Collection type query to filter products by specific types.
 - `?filter=<filter-query>`: Applies filtering options to collections, such as price or tag filters.
 - `?limit=<number>`: Applies custom pagination limit. Useful for querying products on a store in bulk, or retrieving a small subset of products for a specific collection.
-- `?accelerated-checkout-preview=<true/false`: Toggle the accelerated checkout preview by setting it to true to enable or false to disable.
+- `?accelerated-checkout-preview=<true|false>`: Toggle the accelerated checkout preview by setting it to true to enable or false to disable.
 
 ### Shopify (JSON) Endpoints:
 
