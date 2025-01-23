@@ -15,6 +15,7 @@ When working with Shopify URLs, you can use various query parameters and JSON en
 - `?variant=<variant-id>`: Automatically selects a specific variant on the product page when loading (e.g., ?variant=123456789).
 - `?checkout[shipping_address][country]=<country>`: Prefills checkout fields, in this case, the shipping country.
 - `?preview_theme_id=<theme-id>`: Allows you to preview a specific theme on your store without publishing it.
+- `?preview_privacy_banner=1`: Allows you to preview the cookie privacy banner.
 - `?page=<page-number>`: Used for pagination on collection pages, allowing users to navigate between multiple pages of products.
 - `?type=<collection-type>`: Collection type query to filter products by specific types.
 - `?filter=<filter-query>`: Applies filtering options to collections, such as price or tag filters.
